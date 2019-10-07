@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="img_dialog">100dp</dimen>
+    <dimen name="btn_close">24dp</dimen>
+
+    <dimen name="pokemon_thumb">37dp</dimen>
+    <dimen name="type_thumb">31dp</dimen>
+    <dimen name="cardview_dialog">45dp</dimen>
+    <dimen name="cardview_item">16dp</dimen>
+    <dimen name="padding_cardview">10dp</dimen>
+
+    <dimen name="icon_size">20dp</dimen>
+</resources>

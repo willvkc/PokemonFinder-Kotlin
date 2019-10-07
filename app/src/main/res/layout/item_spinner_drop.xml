@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/branco2"
+    android:paddingStart="6dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingTop="2dp"
+    android:paddingBottom="1.5dp"
+    android:paddingEnd="6dp">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/type_thumb"
+        android:layout_height="@dimen/type_thumb"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="3dp"/>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="3dp"
+        android:layout_toEndOf="@id/thumbnail"
+        android:shadowColor="@color/azul3"
+        android:singleLine="true"
+        android:textColor="@color/azul1"
+        android:textColorHighlight="@color/azul3"
+        android:textColorHint="@color/azul3"
+        android:textSize="@dimen/item_size3" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/thumbnail"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider"
+        android:scrollbarSize="3dp" />
+
+</RelativeLayout>
